@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Las Delicias de Isa — Fast Food</title>
+<style>
+  :root{ --bg:#0c0c0e; --card:#171719; --txt:#f5f2ec; --muted:#a09a90; --acc:#e03a2f; --border:#2a2a2e; }
+  *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',system-ui,sans-serif}
+  body{background:var(--bg);color:var(--txt);min-height:100vh;padding:20px 16px 48px}
+  .wrap{max-width:480px;margin:0 auto}
+  .hero{display:flex;flex-direction:column;align-items:center;text-align:center;margin-bottom:26px}
+  .logo{width:150px;height:150px;border-radius:24px;object-fit:cover;border:3px solid var(--border)}
+  h1{font-size:1.9rem;line-height:1.1;margin-top:16px;letter-spacing:.5px}
+  h1 span{color:var(--acc)}
+  .tag{color:var(--muted);font-size:.98rem;margin-top:6px;letter-spacing:2px;text-transform:uppercase}
+  .btn{display:flex;align-items:center;gap:14px;background:var(--card);border:1px solid var(--border);
+       border-radius:14px;padding:16px 18px;margin-bottom:12px;text-decoration:none;color:var(--txt);
+       transition:transform .15s, border-color .15s}
+  .btn:hover{transform:translateY(-2px);border-color:var(--acc)}
+  .ico{font-size:1.5rem;width:34px;text-align:center}
+  .b-txt{flex:1}
+  .b-t{font-weight:700;font-size:1.02rem}
+  .b-s{color:var(--muted);font-size:.85rem;margin-top:2px}
+  .acc{background:var(--acc);border-color:var(--acc);color:#fff}
+  .acc .b-s{color:#ffd9d5}
+  h2{font-size:1.05rem;text-transform:uppercase;letter-spacing:2px;color:var(--muted);margin:24px 0 12px;text-align:center}
+  .sede{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:14px 16px;margin-bottom:10px}
+  .sede b{display:block;font-size:1rem}
+  .sede small{color:var(--muted)}
+  .sede a{color:var(--acc);text-decoration:none;font-size:.88rem;font-weight:600}
+  footer{margin-top:28px;text-align:center;color:var(--muted);font-size:.8rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <img src="logo_isa.jpg" class="logo" alt="Las Delicias de Isa">
+    <h1>LAS DELICIAS <span>DE ISA</span></h1>
+    <div class="tag">Fast Food · Cali y Bogotá</div>
+  </div>
+
+  <a class="btn acc" href="https://drive.google.com/file/d/1vZcmCcVM9k7zpTkF1Z0rx71dVVDgggBM/view" target="_blank">
+    <span class="ico">🍔</span><span class="b-txt"><span class="b-t">Ver el menú</span><span class="b-s">Catálogo completo con precios</span></span>
+  </a>
+  <a class="btn" href="https://vpos.app/?idSyA=A0097" target="_blank">
+    <span class="ico">🛎️</span><span class="b-txt"><span class="b-t">Haz tu pedido</span><span class="b-s">Pedido rápido en línea</span></span>
+  </a>
+  <a class="btn" href="https://linktr.ee/lasdeliciasdeisafastfood" target="_blank">
+    <span class="ico">💬</span><span class="b-txt"><span class="b-t">WhatsApp por sede</span><span class="b-s">Pide directo a tu sucursal</span></span>
+  </a>
+  <a class="btn" href="https://www.instagram.com/lasdeliciasdeisa/" target="_blank">
+    <span class="ico">📸</span><span class="b-txt"><span class="b-t">Instagram</span><span class="b-s">@lasdeliciasdeisa</span></span>
+  </a>
+  <a class="btn" href="https://www.facebook.com/vladimirflor.villegas" target="_blank">
+    <span class="ico">👍</span><span class="b-txt"><span class="b-t">Facebook</span><span class="b-s">Síguenos y mira novedades</span></span>
+  </a>
+  <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Las+Delicias+de+Isa+fast+food+Cali" target="_blank">
+    <span class="ico">⭐</span><span class="b-txt"><span class="b-t">Califícanos en Google</span><span class="b-s">Tu reseña nos ayuda crecer</span></span>
+  </a>
+
+  <h2>Nuestras sedes</h2>
+
+  <div class="sede"><b>La Rivera · Norte (Cali)</b>
+    <a href="https://linktr.ee/lasdeliciasdeisafastfood" target="_blank">WhatsApp pedidos</a>
+  </div>
+  <div class="sede"><b>Valle del Lili · Sur (Cali)</b>
+    <a href="https://linktr.ee/lasdeliciasdeisafastfood" target="_blank">WhatsApp pedidos</a>
+  </div>
+  <div class="sede"><b>Salomia (Cali)</b>
+    <a href="https://linktr.ee/lasdeliciasdeisafastfood" target="_blank">WhatsApp pedidos</a>
+  </div>
+  <div class="sede"><b>Villa Colombia · Cali</b>
+    <a href="https://linktr.ee/lasdeliciasdeisafastfood" target="_blank">WhatsApp pedidos</a>
+  </div>
+  <div class="sede"><b>Modelia · Bogotá</b>
+    <a href="https://linktr.ee/lasdeliciasdeisafastfood" target="_blank">WhatsApp pedidos</a>
+  </div>
+
+  <footer>Las Delicias de Isa · Fast Food<br>La comida que te gusta, a un toque.</footer>
+</div>
+</body>
+</html>
